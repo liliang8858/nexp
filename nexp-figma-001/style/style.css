@@ -9,10 +9,15 @@ body {
 
 .navbar{
     background-color: grey;
+    display: flex;
 }
 
 .navbar #navlog{
-    width: 500px;
+    width: 200px;
     padding: 5px;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline-block; 
 }
 
