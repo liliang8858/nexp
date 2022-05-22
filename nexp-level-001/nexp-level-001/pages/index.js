@@ -3,6 +3,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
+
       <style jsx>{`
         .main {
           position: absolute;
@@ -114,8 +115,8 @@ export default function Home() {
           order: 0;
           flex-grow: 0;
         }
-        .menudashboardlimg img{
-          width:20px;
+        .menudashboardlimg img {
+          width: 20px;
         }
         .menudashboardtext {
           width: 79px;
@@ -166,8 +167,8 @@ export default function Home() {
           order: 0;
           flex-grow: 0;
         }
-        .proimg img{
-          width:20px;
+        .proimg img {
+          width: 20px;
         }
         .pronickname {
           display: flex;
@@ -243,8 +244,8 @@ export default function Home() {
           order: 1;
           flex-grow: 0;
         }
-        .pronicknameicon img{
-          width:10px
+        .pronicknameicon img {
+          width: 10px;
         }
       `}</style>
       <div className="main">
@@ -254,55 +255,55 @@ export default function Home() {
             <span className="logotext">健康管家</span>
           </div>
           <div className="menu">
-          <span className="menuhealthcenter">健康中心</span>
-          <div className="menumain">
-            <div className="menudashboard">
-              <div className="menudashboardlimg">
-                <img src="health.png"  alt="" srcset="" />
+            <span className="menuhealthcenter">健康中心</span>
+            <div className="menumain">
+              <div className="menudashboard">
+                <div className="menudashboardlimg">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
+                <div className="menudashboardtext">健康大屏</div>
               </div>
-              <div className="menudashboardtext">健康大屏</div>
+              <div className="menudashboard">
+                <div className="menudashboardlimg">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
+                <div className="menudashboardtext">定时管理</div>
+              </div>
+              <div className="menudashboard">
+                <div className="menudashboardlimg">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
+                <div className="menudashboardtext">报告管理</div>
+              </div>
+              <div className="menudashboard">
+                <div className="menudashboardlimg">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
+                <div className="menudashboardtext">消息中心</div>
+              </div>
+              <div className="menudashboard">
+                <div className="menudashboardlimg">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
+                <div className="menudashboardtext">系统配置</div>
+              </div>
             </div>
-            <div className="menudashboard">
-              <div className="menudashboardlimg">
-                <img src="health.png"   alt="" srcset="" />
+            <div className="menurightborder"></div>
+            <div className="pro">
+              <div className="proimg">
+                <img src="health.png" alt="" srcset="" />
               </div>
-              <div className="menudashboardtext">定时管理</div>
-            </div>
-            <div className="menudashboard">
-              <div className="menudashboardlimg">
-                <img src="health.png"  alt="" srcset="" />
+              <div className="pronickname">
+                <div className="pronicknamepro">
+                  <div className="pronicknametextt">东湖畔</div>
+                  <div className="pronicknamemobile">189****5810</div>
+                </div>
+                <div className="pronicknameicon">
+                  <img src="health.png" alt="" srcset="" />
+                </div>
               </div>
-              <div className="menudashboardtext">报告管理</div>
-            </div>
-            <div className="menudashboard">
-              <div className="menudashboardlimg">
-                <img src="health.png"  alt="" srcset="" />
-              </div>
-              <div className="menudashboardtext">消息中心</div>
-            </div>
-            <div className="menudashboard">
-              <div className="menudashboardlimg">
-                <img src="health.png"  alt="" srcset="" />
-              </div>
-              <div className="menudashboardtext">系统配置</div>
             </div>
           </div>
-          <div className="menurightborder"></div>
-          <div className="pro">
-            <div className="proimg">
-              <img src="health.png"  alt="" srcset="" />
-            </div>
-            <div className="pronickname">
-              <div className="pronicknamepro">
-                <div className="pronicknametextt">东湖畔</div>
-                <div className="pronicknamemobile">189****5810</div>
-              </div>
-              <div className="pronicknameicon">
-                <img src="health.png"   alt="" srcset="" />
-              </div>
-            </div>
-          </div>
-        </div>
         </div>
       </div>
     </>
