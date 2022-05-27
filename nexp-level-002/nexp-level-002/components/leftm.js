@@ -1,4 +1,10 @@
 
+import IconCalendar from './iconcalendar';
+import IconDash from './icondash';
+import IconMore from './iconmore';
+import IconNotifi from './iconnotifi';
+import IconReport from './iconreport';
+import IconSettings from './iconsettings';
 import styles from './leftm.module.css'
 
 const Leftm = () => (
@@ -13,31 +19,31 @@ const Leftm = () => (
         <div className={styles.menumain}>
           <div className={styles.menudashboard}>
             <div className={styles.menudashboardlimg}>
-              <img src="health.png" alt=""  />
+              <IconDash />
             </div>
             <div className={styles.menudashboardtext}>健康大屏</div>
           </div>
           <div className={styles.menudashboard}>
             <div className={styles.menudashboardlimg}>
-              <img src="health.png" alt=""  />
+              <IconReport />
             </div>
             <div className={styles.menudashboardtext}>定时管理</div>
           </div>
           <div className={styles.menudashboard}>
             <div className={styles.menudashboardlimg}>
-              <img src="health.png" alt=""  />
+              <IconCalendar/>
             </div>
             <div className={styles.menudashboardtext}>报告管理</div>
           </div>
           <div className={styles.menudashboard}>
             <div className={styles.menudashboardlimg}>
-              <img src="health.png" alt=""  />
+              <IconNotifi/>
             </div>
             <div className={styles.menudashboardtext}>消息中心</div>
           </div>
           <div className={styles.menudashboard}>
             <div className={styles.menudashboardlimg}>
-              <img src="health.png" alt=""  />
+              <IconSettings/>
             </div>
             <div className={styles.menudashboardtext}>系统配置</div>
           </div>
@@ -53,7 +59,7 @@ const Leftm = () => (
               <div className={styles.pronicknamemobile}>189****5810</div>
             </div>
             <div className={styles.pronicknameicon}>
-              <img src="health.png" alt=""  />
+              <IconMore/>
             </div>
           </div>
         </div>
