@@ -1,0 +1,67 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome {
+    position: relative;
+    /* width: 1000px; */
+    height: 28px;
+    left: 180px;
+    top: 50px;
+    display: flex;
+}
+
+.welcometext{
+    width: 293px;
+    height: 28px;
+    left: 10px;
+    top: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #3629B7;
+
+}
+
+.welcomesearch{
+    position: relative;
+    display: flex;
+}
+
+@media  (max-width:900px){
+    .welcomesearch{
+        display:  none !important;
+    }
+}
+
+
+
+.welcomesearchbtn{
+  
+left: 54.93%;
+right: 43.77%;
+top: 6.26%;
+bottom: 91.84%;
+
+
+}
+.welcomesearchinput{
+width: 57px;
+height: 24px;
+left: 829.75px;
+top: 60px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #494949;
+}
