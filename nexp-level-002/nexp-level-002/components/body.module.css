@@ -156,3 +156,10 @@
         width: 150% !important;
     }
 }
+
+@media (max-width:550px) {
+
+.weather {
+    width: 100% !important;
+}
+}
