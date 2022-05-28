@@ -1,18 +1,21 @@
 .body {
     margin: 0;
     padding: 0;
+    position: absolute;
+
+    left: 250px;
 }
 
 .welcome {
     position: relative;
     /* width: 1000px; */
     height: 28px;
-    left: 180px;
+    left: 10px;
     top: 50px;
     display: flex;
 }
 
-.welcometext{
+.welcometext {
     width: 293px;
     height: 28px;
     left: 10px;
@@ -28,40 +31,128 @@
 
 }
 
-.welcomesearch{
+.welcomesearch {
     position: relative;
     display: flex;
+    left: 100px;
+
+    box-sizing: border-box;
+
+    width: 200px;
+    height: 50px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 15px;
 }
 
-@media  (max-width:900px){
-    .welcomesearch{
-        display:  none !important;
+
+.welcomesearchbtn {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.welcomesearchinput {
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #494949;
+}
+
+.welcomesearchinput input {
+
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    font-size: 20px;
+    width: 160px;
+}
+
+.weather {
+    position: relative;
+    left: 10px;
+    top: 100px;
+    background: #F7F9FD;
+    border-radius: 12px;
+    height: 100px;
+    width: 95%;
+    display: flex;
+
+}
+
+.weatherlogo {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 52px;
+    height: 52px;
+}
+
+.weathertext {
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+
+.weatherspacse {
+    width: 100px;
+    height: 0px;
+    margin-top: 50px;
+    border: 1.30286px solid #EFEFF1;
+    transform: rotate(90deg);
+
+}
+
+.weatherforget {
+    margin-left: 5px;
+    margin-top: 25px;
+
+}
+
+@media (max-width:900px) {
+    .welcomesearch {
+        display: none !important;
+    }
+
+    .body {
+        left: 80px !important;
+    }
+}
+
+@media (min-width:1000px) {
+    .welcomesearch {
+        left: 210px !important;
     }
 }
 
 
 
-.welcomesearchbtn{
-  
-left: 54.93%;
-right: 43.77%;
-top: 6.26%;
-bottom: 91.84%;
+@media (max-width:900px) {
+    .weatherspacse {
+        display: none !important;
+    }
 
+    .weatherforget {
+        display: none !important;
+    }
 
+    .weather {
+        width: 200% !important;
+    }
 }
-.welcomesearchinput{
-width: 57px;
-height: 24px;
-left: 829.75px;
-top: 60px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+@media (max-width:890px) {
 
+    .weather {
+        width: 200% !important;
+    }
+}
 
-color: #494949;
+@media (max-width:650px) {
+
+    .weather {
+        width: 150% !important;
+    }
 }
