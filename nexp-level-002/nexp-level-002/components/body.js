@@ -8,7 +8,7 @@ const Body = () => (
   <>
     <div className={styles.body}>
       <div className={styles.welcome}>
-          <Tooltip  content={"亚健康及健康管理中心"}>
+          <Tooltip placement='topStart' color="success" content={"亚健康及健康管理中心"}>
             <div className={styles.welcometext}>
                 欢迎登入健康中心
             </div>
