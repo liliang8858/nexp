@@ -3,14 +3,16 @@
 import styles from './body.module.css'
 import IconSeach from './iconsearch';
 import IconWeather from './iconweather';
-
+import { Tooltip} from '@nextui-org/react';
 const Body = () => (
   <>
     <div className={styles.body}>
       <div className={styles.welcome}>
-          <div className={styles.welcometext}>
-              欢迎登入健康中心
-          </div>
+          <Tooltip  content={"亚健康及健康管理中心"}>
+            <div className={styles.welcometext}>
+                欢迎登入健康中心
+            </div>
+          </Tooltip>
           <div className={styles.welcomesearch}>
               <div className={styles.welcomesearchbtn}>
                   <IconSeach />
