@@ -1,165 +1,172 @@
 .body {
-    margin: 0;
-    padding: 0;
-    position: absolute;
+  margin: 0;
+  padding: 0;
+  position: absolute;
 
-    left: 250px;
+  left: 250px;
 }
 
 .welcome {
-    position: relative;
-    /* width: 1000px; */
-    height: 28px;
-    left: 10px;
-    top: 50px;
-    display: flex;
+  position: relative;
+  /* width: 1000px; */
+  height: 28px;
+  left: 10px;
+  top: 50px;
+  display: flex;
 }
 
 .welcometext {
-    width: 293px;
-    height: 28px;
-    left: 10px;
-    top: 10px;
+  width: 293px;
+  height: 28px;
+  left: 10px;
+  top: 10px;
 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 
-    color: #3629B7;
-
+  color: #3629b7;
 }
 
 .welcomesearch {
-    position: relative;
-    display: flex;
-    left: 100px;
+  position: relative;
+  display: flex;
+  left: 100px;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
 
-    background: #FFFFFF;
-    border: 1px solid #E7E7E7;
-    border-radius: 15px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 15px;
 }
 
-
 .welcomesearchbtn {
-    margin-top: 10px;
-    margin-left: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .welcomesearchinput {
-    margin-top: 10px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #494949;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #494949;
 }
 
 .welcomesearchinput input {
-
-    border: none;
-    outline: none;
-    margin-left: 15px;
-    font-size: 20px;
-    width: 160px;
+  border: none;
+  outline: none;
+  margin-left: 15px;
+  font-size: 20px;
+  width: 160px;
 }
 
 .weather {
-    position: relative;
-    left: 10px;
-    top: 100px;
-    background: #F7F9FD;
-    border-radius: 12px;
-    height: 100px;
-    width: 95%;
-    display: flex;
-
+  position: relative;
+  left: 10px;
+  top: 100px;
+  background: #f7f9fd;
+  border-radius: 12px;
+  height: 100px;
+  width: 95%;
+  display: flex;
 }
 
 .weatherlogo {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 52px;
-    height: 52px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 52px;
+  height: 52px;
 }
 
 .weathertext {
-    margin-left: 15px;
-    margin-top: 25px;
+  margin-left: 15px;
+  margin-top: 25px;
 }
 
-
 .weatherspacse {
-    width: 100px;
-    height: 0px;
-    margin-top: 50px;
-    border: 1.30286px solid #EFEFF1;
-    transform: rotate(90deg);
-
+  width: 100px;
+  height: 0px;
+  margin-top: 50px;
+  border: 1.30286px solid #efeff1;
+  transform: rotate(90deg);
 }
 
 .weatherforget {
-    margin-left: 5px;
-    margin-top: 25px;
-
+  margin-left: 5px;
+  margin-top: 25px;
 }
 
-@media (max-width:900px) {
-    .welcomesearch {
-        display: none !important;
-    }
+@media (max-width: 900px) {
+  .welcomesearch {
+    display: none !important;
+  }
 
-    .body {
-        left: 80px !important;
-    }
+  .body {
+    left: 80px !important;
+  }
 }
 
-@media (min-width:1000px) {
-    .welcomesearch {
-        left: 210px !important;
-    }
+@media (min-width: 1000px) {
+  .welcomesearch {
+    left: 210px !important;
+  }
 }
 
+@media (max-width: 900px) {
+  .weatherspacse {
+    display: none !important;
+  }
 
+  .weatherforget {
+    display: none !important;
+  }
 
-@media (max-width:900px) {
-    .weatherspacse {
-        display: none !important;
-    }
-
-    .weatherforget {
-        display: none !important;
-    }
-
-    .weather {
-        width: 200% !important;
-    }
+  .weather {
+    width: 200% !important;
+  }
 }
 
-@media (max-width:890px) {
-
-    .weather {
-        width: 200% !important;
-    }
+@media (max-width: 890px) {
+  .weather {
+    width: 200% !important;
+  }
 }
 
-@media (max-width:650px) {
-
-    .weather {
-        width: 150% !important;
-    }
+@media (max-width: 790px) {
+  .weather {
+    width: 160% !important;
+  }
 }
 
-@media (max-width:550px) {
+@media (max-width: 650px) {
+  .weather {
+    width: 150% !important;
+  }
+}
 
-.weather {
+@media (max-width: 550px) {
+  .weather {
     width: 100% !important;
+  }
 }
+
+@media (max-width: 450px) {
+  .weather {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 350px) {
+  .weather {
+    width: 50% !important;
+    height: 150px;
+  }
 }
