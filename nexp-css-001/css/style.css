@@ -1,6 +1,6 @@
 .box1{
     background-color: antiquewhite;
-    color: blue;
+    color: hsl(30, 100, 60);
 }
 .center{
     width: 80%;

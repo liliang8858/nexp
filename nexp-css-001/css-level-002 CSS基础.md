@@ -1,3 +1,10 @@
+---
+title: css-level-002 CSS基础
+author: 知识铺
+date: 2022-05-31 10:05:00+08:00
+tags: [nextjs,nexp]
+---
+
 
 
 ## 一、 CSS组成部分
@@ -38,9 +45,9 @@
 
 
 
-三、选择器
+## 三、选择器
 
-```
+```html
 <p class="paragraph" id="para1">
       Lorem ipsum dolor sit amet
     </p>
@@ -48,7 +55,7 @@
 
 1. 元素选择器
 
-   ```
+   ```css
    p{
      color:red;
    }
@@ -56,7 +63,7 @@
 
 2. class 选择器
 
-   ```
+   ```css
    .paragraph{
      color:red;
    }
@@ -64,7 +71,7 @@
 
 3. ID选择器
 
-   ```
+   ```css
    #para1{
      color:red;
    }
@@ -74,5 +81,27 @@
 
    
 
+## 四、颜色
 
+```css
+.box1{
+    background-color: antiquewhite;
+    color: blue;
+}
+```
+
+
+
+1. 关键词
+   1. black，silver，white
+2. RGB
+   1. rgb(255,0,0)
+3. RGBA
+   1. rgb(255,0,0,0.5)
+4. 十六进制值
+   1. #ff0000
+5. HSL
+   1. hsl(0,100%,50%)
+6. HSLA
+   1. hsl(0,100%,50%,0.5)
 
