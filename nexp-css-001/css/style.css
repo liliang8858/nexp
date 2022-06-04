@@ -1,8 +1,41 @@
-.box1{
-    background-color: antiquewhite;
-    color: hsl(30, 100, 60);
+h1 {
+  color: red;
+  font-size: 3em;
 }
-.center{
-    width: 80%;
-    margin: auto;
+
+p {
+  color: green;
+}
+p,li {
+    color: green;
+}
+li{
+    list-style-type: none;
+}
+.special{
+    color: orange;
+    font-weight: bold;
+}
+li.special,
+span.special{
+    color: orange;
+    font-weight: bold;
+}
+li em{
+    color: rebeccapurple;
+}
+h1 + p{
+    font-size: 200%;
+}
+
+a:visited{
+    color:red;
+}
+a:hover{
+    text-decoration: none;
+}
+body h1 +p.special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
 }
