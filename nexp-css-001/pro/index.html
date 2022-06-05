@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>纯CSS实现带进度条的卡片切换效果</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="radio" name="select" id="slide_1" checked />
+      <input type="radio" name="select" id="slide_2" />
+      <input type="radio" name="select" id="slide_3" />
+      <div class="slider">
+        <label for="slide_1" class="slide slide-1"></label>
+        <label for="slide_2" class="slide slide-2"></label>
+        <label for="slide_3" class="slide slide-3"></label>
+      </div>
+      <div class="card card-1">
+        <div class="img">
+          <img src="./images/1.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <div class="title">云上有为</div>
+          <div class="text">
+            云、AI、5G等新技术与产业深度融合产生裂变效应，数字技术与实体经济的深度融合，为的政企领域发展带来稳健而澎湃的动力。
+          </div>
+          <a href="#">查看详情</a>
+        </div>
+      </div>
+      <div class="card card-2">
+        <div class="img">
+          <img src="./images/2.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <div class="title">团队</div>
+          <div class="text">
+            团队（Team）是由基层和管理层人员组成的一个共同体，它合理利用每一个成员的知识和技能协同工作，解决问题，达到共同的目标。
+            定义
+          </div>
+          <a href="#">查看详情</a>
+        </div>
+      </div>
+      <div class="card card-3">
+        <div class="img">
+          <img src="./images/3.jpeg" alt="" />
+        </div>
+        <div class="content">
+          <div class="title">Go 夜读</div>
+          <div class="text">
+            Go夜读公众号同名,程序员以及 Go 技术知识、架构实践,以及 TalkGo
+            读书会,TalkGo 算法之美等相关内容。 关注发消息
+          </div>
+          <a href="#">查看详情</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
